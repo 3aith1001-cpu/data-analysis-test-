@@ -1,0 +1,15 @@
+﻿Metric,Value
+Total_Contracts,500
+Total_Value_SAR,3427080000.00
+Average_Value_SAR,6854160.00
+Median_Value_SAR,1490000.00
+Min_Value_SAR,50000.00
+Max_Value_SAR,49570000.00
+Std_Dev_SAR,11660591.27
+Average_Duration_Months,25.53
+Number_of_Sectors,7
+Number_of_Contractors,12
+Number_of_Project_Types,12
+Number_of_Regions,10
+Date_Range_Start,2020-01-02
+Date_Range_End,2024-12-30
