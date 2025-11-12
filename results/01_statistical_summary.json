@@ -1,0 +1,62 @@
+{
+  "descriptive_statistics": {
+    "contract_values": {
+      "name": "Contract Values (SAR)",
+      "n": 500,
+      "mean": 6854160.0,
+      "median": 1490000.0,
+      "mode": 400000.0,
+      "variance": 135969388671743.48,
+      "std_dev": 11660591.265958322,
+      "cv": 170.12429336283836,
+      "min": 50000.0,
+      "max": 49570000.0,
+      "range": 49520000.0,
+      "q1": 410000.0,
+      "q3": 7180000.0,
+      "iqr": 6770000.0,
+      "skewness": 2.209999678554806,
+      "kurtosis": 3.9118382923726713
+    },
+    "durations": {
+      "name": "Contract Duration (months)",
+      "n": 500,
+      "mean": 25.53,
+      "median": 24.0,
+      "mode": 24,
+      "variance": 339.56422845691384,
+      "std_dev": 18.42726861086346,
+      "cv": 72.17888214204254,
+      "min": 3,
+      "max": 60,
+      "range": 57,
+      "q1": 12,
+      "q3": 36,
+      "iqr": 24,
+      "skewness": 0.5147747523423865,
+      "kurtosis": -1.000139842260048
+    }
+  },
+  "inferential_statistics": {
+    "t_test": {
+      "group1": "Capital Projects",
+      "group2": "Operational Projects",
+      "mean1": 8151049.382716049,
+      "mean2": 5835419.354838709,
+      "t_statistic": 1.7343156157602146,
+      "df": 313.8111407315643,
+      "cohens_d": 0.19463782769691873,
+      "effect_size": "negligible",
+      "significant": false
+    },
+    "anova": {
+      "f_statistic": 0.877699142352686,
+      "df_between": 6,
+      "df_within": 493,
+      "eta_squared": 0.010569039016700641,
+      "ss_between": 717095821200347.0,
+      "ss_within": 6.713162912599967e+16,
+      "ss_total": 6.78487249472e+16
+    }
+  }
+}

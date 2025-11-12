@@ -1,0 +1,26 @@
+{
+  "correlation_analysis": {
+    "value_vs_duration": {
+      "pearson_r": 0.0533607055110725,
+      "strength": "weak"
+    }
+  },
+  "linear_regression": {
+    "slope": 33766.120729415605,
+    "intercept": 5992110.937778019,
+    "r_squared": 0.002847364892639037,
+    "rmse": 11632328.646472728,
+    "equation": "Y = 5992110.94 + 33766.1207X"
+  },
+  "time_series": {
+    "n_months": 60,
+    "trend": {
+      "slope": 372490.13614893024,
+      "r_squared": 0.030939676012135542
+    },
+    "growth": {
+      "avg_monthly_growth": 166.74207023813545,
+      "cagr": 33.95336278532759
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "market_concentration": {
+    "hhi": {
+      "value": 886.4746335491363,
+      "classification": "Competitive (Unconcentrated)",
+      "n_contractors": 12
+    },
+    "concentration_ratios": {
+      "cr4": 42.181390571565295,
+      "cr8": 77.0950780256078,
+      "classification": "Moderate Concentration",
+      "top_4_contractors": [
+        "شركة الراجحي للمقاولات",
+        "مجموعة السعودي الفرنسي",
+        "مجموعة الزامل",
+        "شركة عبدالله عبدالمحسن الخضري"
+      ]
+    },
+    "gini": {
+      "coefficient": 0.14201497095681082,
+      "interpretation": "Low inequality (competitive)"
+    }
+  },
+  "clustering": {
+    "value_clusters": [
+      {
+        "cluster_id": 0,
+        "size": 367,
+        "mean": 1414332.42506812,
+        "min": 50000.0,
+        "max": 6410000.0,
+        "std": 1577516.0417153416,
+        "label": "Small Contracts"
+      },
+      {
+        "cluster_id": 1,
+        "size": 80,
+        "mean": 11647500.0,
+        "min": 6610000.0,
+        "max": 23700000.0,
+        "std": 5146480.54745342,
+        "label": "Medium Contracts"
+      },
+      {
+        "cluster_id": 2,
+        "size": 53,
+        "mean": 37287169.81132075,
+        "min": 24850000.0,
+        "max": 49570000.0,
+        "std": 7671548.930290437,
+        "label": "Large Contracts"
+      }
+    ]
+  },
+  "segmentation": {
+    "by_sector": [
+      {
+        "segment": "الداخلية",
+        "count": 81,
+        "total_value": 639320000.0,
+        "avg_value": 7892839.50617284,
+        "market_share": 18.65494823581591
+      },
+      {
+        "segment": "الإسكان",
+        "count": 82,
+        "total_value": 620360000.0,
+        "avg_value": 7565365.853658536,
+        "market_share": 18.101707576128952
+      },
+      {
+        "segment": "البلدية",
+        "count": 68,
+        "total_value": 586490000.0,
+        "avg_value": 8624852.94117647,
+        "market_share": 17.113402663491954
+      },
+      {
+        "segment": "النقل",
+        "count": 71,
+        "total_value": 469890000.0,
+        "avg_value": 6618169.014084507,
+        "market_share": 13.711089323855877
+      },
+      {
+        "segment": "الصحة",
+        "count": 65,
+        "total_value": 397130000.0,
+        "avg_value": 6109692.307692308,
+        "market_share": 11.587999112947465
+      },
+      {
+        "segment": "التعليم",
+        "count": 63,
+        "total_value": 375090000.0,
+        "avg_value": 5953809.523809524,
+        "market_share": 10.944886025421058
+      },
+      {
+        "segment": "الدفاع",
+        "count": 70,
+        "total_value": 338800000.0,
+        "avg_value": 4840000.0,
+        "market_share": 9.885967062338784
+      }
+    ],
+    "by_project_type": [
+      {
+        "segment": "أنظمة التكييف",
+        "count": 42,
+        "total_value": 388520000.0,
+        "avg_value": 9250476.19047619,
+        "market_share": 11.336764826032658
+      },
+      {
+        "segment": "أعمال السباكة",
+        "count": 37,
+        "total_value": 368260000.0,
+        "avg_value": 9952972.972972972,
+        "market_share": 10.745590998751123
+      },
+      {
+        "segment": "تطوير البنية التحتية",
+        "count": 51,
+        "total_value": 357380000.0,
+        "avg_value": 7007450.980392157,
+        "market_share": 10.428119565344259
+      },
+      {
+        "segment": "أعمال النظافة",
+        "count": 47,
+        "total_value": 324830000.0,
+        "avg_value": 6911276.595744681,
+        "market_share": 9.478331407495594
+      },
+      {
+        "segment": "صيانة الطرق",
+        "count": 40,
+        "total_value": 308000000.0,
+        "avg_value": 7700000.0,
+        "market_share": 8.98724278394435
+      },
+      {
+        "segment": "إنشاءات جديدة",
+        "count": 49,
+        "total_value": 294620000.0,
+        "avg_value": 6012653.0612244895,
+        "market_share": 8.596822951317156
+      },
+      {
+        "segment": "صيانة دورية",
+        "count": 47,
+        "total_value": 290820000.0,
+        "avg_value": 6187659.574468086,
+        "market_share": 8.485941384502258
+      },
+      {
+        "segment": "الخدمات الكهربائية",
+        "count": 42,
+        "total_value": 290580000.0,
+        "avg_value": 6918571.428571428,
+        "market_share": 8.478938338177107
+      },
+      {
+        "segment": "تشغيل وصيانة المرافق",
+        "count": 35,
+        "total_value": 268520000.0,
+        "avg_value": 7672000.0,
+        "market_share": 7.835241663456937
+      },
+      {
+        "segment": "صيانة المباني",
+        "count": 33,
+        "total_value": 241900000.0,
+        "avg_value": 7330303.03030303,
+        "market_share": 7.05848710855889
+      }
+    ]
+  }
+}
